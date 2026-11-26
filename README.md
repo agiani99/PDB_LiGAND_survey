@@ -2,6 +2,8 @@
 
 A survey of small organic ligands in X-ray protein complexes from the PDB, in 2D (chemistry) and 3D (binding mode, strain), split by protein family and resolution class, with an interactive Streamlit/Bokeh explorer.
 
+Extra files and downloaded poses and DFT/xtb geometries [here](https://doi.org/10.5281/zenodo.24561877)
+
 ## Scope
 
 - Source: X-ray structures with resolution < 5 Å that contain a protein and a non-polymeric ligand.
