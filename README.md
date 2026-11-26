@@ -154,7 +154,7 @@ Estimated cost: about 80–100 CPU-hours (roughly 5–6 h on 16 parallel jobs).
 | ΔE, xtb vs DFT | 0.91 | 0.88 | 3.52 | −2.15 | 5.05 | DFT = 0.97·xtb − 1.83 |
 | Local strain, xtb vs DFT | 0.91 | 0.88 | 2.55 | −1.53 | 3.99 | DFT = 0.94·xtb − 0.98 |
 
-![xtb vs DFT: ΔE (left) and local strain (right); dashed line = identity](data/orca/validation.png)
+![xtb vs DFT: ΔE (left) and local strain (right); dashed line = identity](orca/validation.png)
 
 - The xtb ΔE reproduces the production `delta_e_kcal` exactly (same seed and ensemble), so the production values are validated directly.
 - **Ranking agrees well; absolute values are about 2 kcal/mol too high in xtb.** The slope is close to 1, so the difference is an offset, not a scale error. Median ΔE is 9.9 (xtb) versus 6.9 (DFT) on this tail-enriched sample.
