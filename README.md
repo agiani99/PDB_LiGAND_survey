@@ -198,7 +198,7 @@ Result: 7,596 ligand–target values, 6,289 ligands, 797 targets. No Km values q
 | Within-target weighted mean, partial (heavy atoms, rotatable bonds); targets with ≥ 15 ligands | 0.01 (21) | −0.11 (9) | −0.07 (91) |
 | Raw correlation with heavy atoms (for comparison) | +0.34 | +0.41 | +0.39 |
 
-![pChEMBL against ΔE: scatter (top) and by ΔE bin (bottom)](data/potency/potency_vs_strain.png)
+![pChEMBL against ΔE: scatter (top) and by ΔE bin (bottom)](potency/potency_vs_strain.png)
 
 **Conclusions**
 - Strain is a very weak predictor of potency across ligands. Ligand size is far stronger, and because larger ligands are both more potent and more strained, it hides the small negative relation in the raw numbers.
